@@ -102,7 +102,7 @@ export default function RootLayout({
           strategy='afterInteractive'
         />
         <link rel='icon' href='/favicon.ico' sizes='any' />
-        <link rel='icon' href='/placeholder-logo.svg' type='image/svg+xml' />
+        <link rel='icon' href='/favicon.svg' type='image/svg+xml' />
         <link rel='apple-touch-icon' href='/placeholder-logo.png' />
       </head>
       <body className={`${orbitron.className} bg-black`}>

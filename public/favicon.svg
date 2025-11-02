@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Honey Singh logo">
+  <defs>
+    <linearGradient id="honeyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFF00" />
+      <stop offset="45%" stop-color="#FF00FF" />
+      <stop offset="100%" stop-color="#00FFFF" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#08090F" />
+  <g filter="url(#neonGlow)">
+    <path
+      d="M32 12L47.3205 20V44L32 52L16.6795 44V20Z"
+      fill="url(#honeyGradient)"
+      stroke="#FFFF66"
+      stroke-width="1.2"
+    />
+  </g>
+  <path
+    d="M26 22H30V42H26V22ZM34 22H38V42H34V22ZM30 30H34V34H30V30Z"
+    fill="#08090F"
+  />
+  <circle cx="44" cy="20" r="3" fill="#FF00FF" />
+  <circle cx="44" cy="20" r="5.5" fill="none" stroke="#FF00FF" stroke-opacity="0.35" stroke-width="1" />
+</svg>
+
