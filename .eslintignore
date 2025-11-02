@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+.next/
+out/
+dist/
+
+# Generated files by shadcn CLI
+components/ui/
+
+# Build outputs
+*.tsbuildinfo
+
